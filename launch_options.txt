@@ -1,0 +1,1 @@
+-novid -console +fps_max 0 -language bananagaming -nojoy –softparticlesdefaultoff -tickrate 64 +exec autoexec
