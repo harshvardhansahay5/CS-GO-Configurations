@@ -8,5 +8,6 @@ cd .\CS-GO-Configurations
 .\copy_autoexec.bat -f
 cd ..
 rmdir /s /q "CS-GO-Configurations"
+pause
 ```
 2. Enjoy the game and don't fucking cheat.
