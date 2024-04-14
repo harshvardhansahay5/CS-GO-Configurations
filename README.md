@@ -8,7 +8,6 @@ cd .\CS-GO-Configurations
 start cmd /k %cd%\copy_autoexec.bat -f
 cd ..
 timeout /t 5 /nobreak
-rmdir /s /q "CS-GO-Configurations"
-pause
+start cmd /k %cd%\copy_autoexec.bat %cd%
 ```
 2. Enjoy the game and don't fucking cheat.
