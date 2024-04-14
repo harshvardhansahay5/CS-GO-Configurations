@@ -1,5 +1,5 @@
 csgo
--novid -console +fps_max 0 -language bananagaming -nojoy –softparticlesdefaultoff -tickrate 64 +exec autoexec
+-novid -console +fps_max 0 -language bananagaming -nojoy –softparticlesdefaultoff -tickrate 64 +exec autoexec -verify
 
 cs2
-+cl_forcepreload 1 -nojoy -novid -freq 60 -high +exec autoexec +fps_max 120 +r_drawparticles 0 +violence_hblood 0
++cl_forcepreload 1 -nojoy -novid -freq 60 -high +exec autoexec +fps_max 120 +r_drawparticles 0 +violence_hblood 0 -verify
