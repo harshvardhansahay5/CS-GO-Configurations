@@ -5,7 +5,7 @@
 rmdir /s /q "CS-GO-Configurations"
 git clone https://github.com/harshvardhansahay5/CS-GO-Configurations.git
 cd .\CS-GO-Configurations
-.\copy_autoexec.bat -f
+start cmd /k .\copy_autoexec.bat -f
 cd ..
 rmdir /s /q "CS-GO-Configurations"
 pause
