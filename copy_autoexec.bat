@@ -1,5 +1,7 @@
 @echo off
 
+if "%1"=="-f" goto :xcopy_code
+
 :choice
 set /P c=Fetch Latest Updates From GitHub[Y/N]?
 if /I "%c%" EQU "Y" goto :gitpull
