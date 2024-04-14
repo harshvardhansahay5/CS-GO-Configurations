@@ -7,6 +7,7 @@ git clone https://github.com/harshvardhansahay5/CS-GO-Configurations.git
 cd .\CS-GO-Configurations
 start cmd /k %cd%\copy_autoexec.bat -f
 cd ..
+timeout /t 5 /nobreak
 rmdir /s /q "CS-GO-Configurations"
 pause
 ```
